@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import { InfoBar, Input, Messages } from "./";
 
 let socket;
-const ENDPOINT = "localhost:5000";
+const ENDPOINT = "https://zzid-chat-server-first.herokuapp.com/";
 
 const Chat = ({ location }) => {
     const [name, setName] = useState("");
