@@ -34,7 +34,12 @@ const Join = () => {
                 </div>
                 <Link onClick={onClick} to={`/chat?name=${name}&room=${room}`}>
                     <button className="button mt-20" type="submit">
-                        Sign In
+                        Go to Chat
+                    </button>
+                </Link>
+                <Link onClick={onClick} to={`/vote?name=${name}&room=${room}`}>
+                    <button className="button mt-20" type="submit">
+                        Go to Vote
                     </button>
                 </Link>
             </div>
